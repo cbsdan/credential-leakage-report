@@ -1,0 +1,7 @@
+.env
+repos/*
+reports/private/*
+reports/raw/*
+tools/gitleaks.exe
+tools/trufflehog.exe
+venv/

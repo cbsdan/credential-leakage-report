@@ -1,0 +1,118 @@
+{
+  "summary_statistics": {
+    "total_repositories": 50,
+    "repositories_with_secrets": 31,
+    "prevalence_percentage": 62.0,
+    "confidence_interval_95": [
+      48.15,
+      74.14
+    ]
+  },
+  "frequency_tables": {
+    "languages": {
+      "JavaScript": 11,
+      "C#": 5,
+      "PHP": 8,
+      "Python": 4,
+      "HTML": 3,
+      "Java": 7,
+      "Unknown": 7,
+      "Dart": 1,
+      "TypeScript": 3,
+      "Blade": 1
+    },
+    "risk_levels": {
+      "Low": 19,
+      "Medium": 16,
+      "High": 15
+    },
+    "size_categories": {
+      "Small (<1MB)": 0,
+      "Medium (1-3MB)": 1,
+      "Large (>3MB)": 49
+    },
+    "secrets_by_language": {
+      "JavaScript": {
+        "with_secrets": 7,
+        "total": 11
+      },
+      "C#": {
+        "with_secrets": 4,
+        "total": 5
+      },
+      "PHP": {
+        "with_secrets": 4,
+        "total": 8
+      },
+      "Python": {
+        "with_secrets": 2,
+        "total": 4
+      },
+      "HTML": {
+        "with_secrets": 2,
+        "total": 3
+      },
+      "Java": {
+        "with_secrets": 6,
+        "total": 7
+      },
+      "Unknown": {
+        "with_secrets": 3,
+        "total": 7
+      },
+      "Dart": {
+        "with_secrets": 0,
+        "total": 1
+      },
+      "TypeScript": {
+        "with_secrets": 2,
+        "total": 3
+      },
+      "Blade": {
+        "with_secrets": 1,
+        "total": 1
+      }
+    },
+    "secrets_types": {
+      "Sqlserver": 72,
+      "Qase": 1,
+      "Private Key": 52,
+      "API Key": 9,
+      "Cohere-Api-Token": 1,
+      "Jdbc": 45,
+      "Uri": 23,
+      "Gitlab": 4,
+      "Polygon": 4,
+      "Github": 1,
+      "Githuboauth2": 4,
+      "Postgres": 3,
+      "Circle": 1,
+      "Mongodb": 66,
+      "Imagekit": 2,
+      "Infura": 2,
+      "Tomorrowio": 6,
+      "Travisci": 6,
+      "Miro": 6,
+      "Swell": 9,
+      "Alchemy": 4,
+      "Gitlab-Pat": 1,
+      "Jwt-Base64": 1,
+      "Twilio": 1,
+      "JWT Token": 2
+    }
+  },
+  "statistical_tests": {
+    "language_vs_secrets": {
+      "test": "Chi-square",
+      "chi2": 4.265743145743146,
+      "p_value": 0.7487106442702335,
+      "degrees_of_freedom": 7,
+      "significant": false
+    }
+  },
+  "risk_distribution": {
+    "high_risk": 15,
+    "medium_risk": 16,
+    "low_risk": 19
+  }
+}
